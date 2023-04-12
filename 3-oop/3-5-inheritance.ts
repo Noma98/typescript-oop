@@ -52,7 +52,7 @@
   }
   class CaffeLatteMachine extends CoffeeMachine {
     //상속하려는 클래스의 constructor가 private이면 상속 불가능 -> protected 또는 public으로 바꿔줘야함
-    //오버라이팅: 자식 클래스에서 부모 클래스에 있는 함수를 덮어 씌움
+    //오버라이딩(Overriding): 자식 클래스에서 부모 클래스에 있는 함수를 다시 정의하는 것
 
     constructor(beans: number, public readonly serialNumber: string) {
       //readonly : 한번 설정되고 바뀌지 않는다면 사용
